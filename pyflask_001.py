@@ -22,4 +22,3 @@ def  profile():
     @app.route('/manage')
 def  profile():
     return render_template("manage.html")
-    @app.route('/profile')
