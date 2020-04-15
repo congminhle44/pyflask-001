@@ -16,9 +16,9 @@ def  login():
 @app.route('/profile')
 def  profile():
     return render_template("profile.html")
-    @app.route('/employ')
+@app.route('/employ')
 def  profile():
     return render_template("employee.html")
-    @app.route('/manage')
+@app.route('/manage')
 def  profile():
     return render_template("manage.html")
