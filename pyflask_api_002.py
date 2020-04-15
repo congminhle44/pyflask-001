@@ -23,12 +23,6 @@ def  login():
 @app.route('/profile')
 def  profile():
     return render_template("profile.html")
-@app.route('/manage')
-def  manage():
-    return render_template("manage.html")
-@app.route('/employ')
-def  employ():
-    return render_template("employ.html")
 
 class Employees(Resource):
     def get(self):

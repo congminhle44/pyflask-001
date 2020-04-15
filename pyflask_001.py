@@ -17,8 +17,11 @@ def  login():
 def  profile():
     return render_template("profile.html")
 @app.route('/employ')
-def  profile():
+def  employ():
     return render_template("employee.html")
 @app.route('/manage')
-def  profile():
+def  manage():
     return render_template("manage.html")
+@app.route('/report')
+def  report():
+    return render_template("report.html")
