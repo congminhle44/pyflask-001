@@ -23,7 +23,15 @@ def  login():
 @app.route('/profile')
 def  profile():
     return render_template("profile.html")
-
+@app.route('/employ')
+def  employ():
+    return render_template("employee.html")
+@app.route('/manage')
+def  manage():
+    return render_template("manage.html")
+@app.route('/report')
+def  report():
+    return render_template("report.html")
 class Employees(Resource):
     def get(self):
         conn = db_connect.connect() # connect to database
