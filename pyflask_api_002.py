@@ -27,7 +27,7 @@ def  profile():
 def  manage():
     return render_template("manage.html")
 @app.route('/employ')
-def  employee():
+def  employ():
     return render_template("employ.html")
 
 class Employees(Resource):
