@@ -32,6 +32,9 @@ def  manage():
 @app.route('/report')
 def  report():
     return render_template("report.html")
+@app.route('/order')
+def  order():
+    return render_template("order.html")  
 class Employees(Resource):
     def get(self):
         conn = db_connect.connect() # connect to database

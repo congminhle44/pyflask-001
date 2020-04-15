@@ -19,6 +19,9 @@ def  profile():
 @app.route('/employ')
 def  employ():
     return render_template("employee.html")
+@app.route('/order')
+def  order():
+    return render_template("order.html")  
 @app.route('/manage')
 def  manage():
     return render_template("manage.html")
